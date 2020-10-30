@@ -13,9 +13,8 @@ public extension UIImage {
 
   struct Icons {
 
-    static var rightArrow: UIImage? {
+    public static var rightArrow: UIImage? {
       return UIImage(named: "rightArrow", in: bundle, compatibleWith: nil)
     }
-    
   }
 }
