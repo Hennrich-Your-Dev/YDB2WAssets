@@ -7,14 +7,8 @@
 
 import UIKit
 
-private let bundle = Bundle.init(identifier: "br.com.yourdev.YDB2WAssets")
+public class Icons {
+  private static let podsBundle = Bundle(for: Icons.self)
 
-public extension UIImage {
-
-  struct Icons {
-
-    public static var rightArrow: UIImage? {
-      return UIImage(named: "rightArrow", in: bundle, compatibleWith: nil)
-    }
-  }
+  public let rightArrow = UIImage(named: "rightArrow", in: podsBundle, compatibleWith: nil)
 }
