@@ -9,14 +9,14 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YDB2WAssets"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "A short description of YDB2WAssets."
   spec.homepage     = "https://yourdev.com.br"
   spec.license      = "MIT"
   spec.author             = { "Douglas Hennrich" => "douglashennrich@yourdev.com.br" }
 
   spec.platform     = :ios, "11.0"
-  spec.source           = { :git => "https://github.com/Hennrich-Your-Dev/YDB2WAssets.git", :tag => spec.version }
+  spec.source           = { :git => "git@github.com-yourdev:Hennrich-Your-Dev/YDB2WAssets.git", :tag => spec.version }
   spec.source_files     = "YDB2WAssets/**/*.{h,m,swift}"
   spec.public_header_files = "YDB2WAssets/**/*.h"
   spec.resources        = ["YDB2WAssets/Assets.xcassets"]
