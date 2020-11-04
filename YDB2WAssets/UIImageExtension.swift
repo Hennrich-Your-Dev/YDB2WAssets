@@ -10,5 +10,5 @@ import UIKit
 public class Icons {
   private static let podsBundle = Bundle(for: Icons.self)
 
-  public let rightArrow = UIImage(named: "rightArrow", in: podsBundle, compatibleWith: nil)
+  public static let rightArrow = UIImage(named: "rightArrow", in: podsBundle, compatibleWith: nil)
 }
