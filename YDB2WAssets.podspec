@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Douglas Hennrich" => "douglashennrich@yourdev.com.br" }
 
   spec.platform     = :ios, "11.0"
-  spec.source           = { :git => "git@github.com-yourdev:Hennrich-Your-Dev/YDB2WAssets.git", :tag => spec.version }
+  spec.source           = { :git => "https://github.com/Hennrich-Your-Dev/YDB2WAssets.git", :tag => spec.version }
   spec.source_files     = "YDB2WAssets/**/*.{h,m,swift}"
   spec.public_header_files = "YDB2WAssets/**/*.h"
   spec.resources        = ["YDB2WAssets/Assets.xcassets"]
