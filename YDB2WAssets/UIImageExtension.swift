@@ -7,14 +7,10 @@
 
 import UIKit
 
+private let podsBundle = Bundle(for: Icons.self)
+
 public class Icons {
-  private static let podsBundle = Bundle(for: Icons.self)
-
   public static let rightArrow = UIImage(named: "rightArrow", in: podsBundle, compatibleWith: nil)
-
-  public static let starYellow = UIImage(named: "starYellow", in: podsBundle, compatibleWith: nil)
-
-  public static let starGrey = UIImage(named: "starGrey", in: podsBundle, compatibleWith: nil)
 
   public static let thumbUpFilled = UIImage(named: "thumbUpFilled", in: podsBundle, compatibleWith: nil)
 
@@ -39,4 +35,10 @@ public class Icons {
   public static let thumbUpFilledRotate24Opacity15 = UIImage(named: "thumbUpFilled24Opacity15", in: podsBundle, compatibleWith: nil)
 
   public static let thumbUpFilledRotateMinus18Opacity15 = UIImage(named: "thumbUpFilledMinus18Opacity15", in: podsBundle, compatibleWith: nil)
+}
+
+public class Images {
+  public static let starYellow = UIImage(named: "starYellow", in: podsBundle, compatibleWith: nil)
+
+  public static let starGrey = UIImage(named: "starGrey", in: podsBundle, compatibleWith: nil)
 }
