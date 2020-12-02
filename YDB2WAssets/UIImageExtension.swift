@@ -14,6 +14,8 @@ public class Icons {
 
   public static let thumbUpFilled = UIImage(named: "thumbUpFilled", in: podsBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
 
+  public static let iconsSocialChat = UIImage(named: "iconsSocialChat", in: podsBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
+
   public static let chatWired = UIImage(named: "iconChatWired", in: podsBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
 
   public static let circleDefault = UIImage(named: "iconCircleDefault", in: podsBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
