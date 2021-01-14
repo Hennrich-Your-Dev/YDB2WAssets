@@ -10,7 +10,7 @@
 		9766E68744455C77488BF464 /* Pods_YDB2WAssets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821E0810710D7ED74E43DF5E /* Pods_YDB2WAssets.framework */; };
 		C162DE7B254CAD7000658199 /* YDB2WAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = C162DE79254CAD7000658199 /* YDB2WAssets.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C162DE84254CB1A200658199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C162DE83254CB1A200658199 /* Assets.xcassets */; };
-		C162DED0254CBD4A00658199 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C162DECF254CBD4A00658199 /* UIImageExtension.swift */; };
+		C162DED0254CBD4A00658199 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = C162DECF254CBD4A00658199 /* Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		C162DE79254CAD7000658199 /* YDB2WAssets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDB2WAssets.h; sourceTree = "<group>"; };
 		C162DE7A254CAD7000658199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C162DE83254CB1A200658199 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C162DECF254CBD4A00658199 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		C162DECF254CBD4A00658199 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		EAF1C36E8CBB874AC16E6BE2 /* Pods-YDB2WAssets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDB2WAssets.debug.xcconfig"; path = "Target Support Files/Pods-YDB2WAssets/Pods-YDB2WAssets.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,12 +57,20 @@
 		C162DE78254CAD7000658199 /* YDB2WAssets */ = {
 			isa = PBXGroup;
 			children = (
+				C183CFAE25B0A4AD00B4F675 /* ImagesClasses */,
 				C162DE79254CAD7000658199 /* YDB2WAssets.h */,
 				C162DE7A254CAD7000658199 /* Info.plist */,
 				C162DE83254CB1A200658199 /* Assets.xcassets */,
-				C162DECF254CBD4A00658199 /* UIImageExtension.swift */,
 			);
 			path = YDB2WAssets;
+			sourceTree = "<group>";
+		};
+		C183CFAE25B0A4AD00B4F675 /* ImagesClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C162DECF254CBD4A00658199 /* Images.swift */,
+			);
+			path = ImagesClasses;
 			sourceTree = "<group>";
 		};
 		E8335ED788765D702AE3F467 /* Pods */ = {
@@ -71,7 +79,6 @@
 				EAF1C36E8CBB874AC16E6BE2 /* Pods-YDB2WAssets.debug.xcconfig */,
 				86C3E339ACF00AF1EBEF7FED /* Pods-YDB2WAssets.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -189,7 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C162DED0254CBD4A00658199 /* UIImageExtension.swift in Sources */,
+				C162DED0254CBD4A00658199 /* Images.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
