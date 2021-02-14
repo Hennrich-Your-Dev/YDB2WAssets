@@ -45,6 +45,8 @@ public class Icons {
 
   public static let store = UIImage(named: "iconStore", in: podsBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
 
+  public static let play = UIImage(named: "iconPlay", in: podsBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
+
   public static let point = UIImage(named: "point", in: podsBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
 
   public static let thumbUpFilled = UIImage(named: "thumbUpFilled", in: podsBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
