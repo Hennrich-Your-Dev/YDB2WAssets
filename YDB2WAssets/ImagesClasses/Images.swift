@@ -63,6 +63,9 @@ public class Icons {
 }
 
 public class Images {
+
+  public static let basket = UIImage(named: "basket", in: podsBundle, compatibleWith: nil)
+
   public static let clipboard = UIImage(named: "clipboard", in: podsBundle, compatibleWith: nil)
   
   public static let map = UIImage(named: "map", in: podsBundle, compatibleWith: nil)
