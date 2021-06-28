@@ -39,6 +39,8 @@ public class Icons {
 
   public static let imagePlaceHolder = UIImage(named: "iconImagePlaceHolder", in: podsBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
 
+  public static let info = UIImage(named: "iconInfo", in: podsBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
+
   public static let leftArrow = UIImage(named: "iconLeftArrow", in: podsBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
 
   public static let locationPin = UIImage(named: "location-pin", in: podsBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
