@@ -67,6 +67,8 @@ public class Icons {
 
   public static let point = UIImage(named: "point", in: podsBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
 
+  public static let questionBalloon = UIImage(named: "iconQuestionBalloon", in: podsBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
+
   public static let thumbUpFilled = UIImage(named: "thumbUpFilled", in: podsBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
 
   public static let thumbDownWired = UIImage(named: "iconThumbDownWired", in: podsBundle, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
