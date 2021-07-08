@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YDB2WAssets"
-  spec.version      = "1.4.6"
+  spec.version      = "1.4.7"
   spec.summary      = "A short descr
   iption of YDB2WAssets."
   spec.homepage     = "https://yourdev.com.br"
